@@ -20,8 +20,8 @@ template = Image.open(TEMPLATE_PATH)
 
 role = st.text_input("Job Role", placeholder="Python Developer")
 skills = st.text_area("Required Skills (comma-separated)", placeholder="Python, Django, APIs")
-contact = st.text_input("Contact Number", placeholder="+91 9016768065")
-email = st.text_input("Email Address", placeholder="divyeshsarvaiya2@gmail.com")
+contact = st.text_input("Contact Number", placeholder="+91 1112223334")
+email = st.text_input("Email Address", placeholder="example@gmail.com")
 location = st.text_input("Job Location", placeholder="Surat")
 logo_file = st.file_uploader("Upload Logo Image", type=["png", "jpg", "jpeg", "webp"])
 
